@@ -1,0 +1,12 @@
+{
+	"project": "wplib",
+	"name": "compser",
+	"version": "1.4.3",
+	"majorversion": "1.4",
+	"latest": "",
+	"ports": "",
+	"volumes": "--volume $PWD:/app",
+	"args": "--user vagrant:vagrant",
+	"env": "COMPOSER_VERSION"
+}
+
