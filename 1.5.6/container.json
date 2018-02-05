@@ -4,8 +4,10 @@
 	"version": "1.5.6",
 	"majorversion": "1.5",
 	"latest": "",
+	"network": "--network wplibbox",
 	"ports": "",
 	"volumes": "--volume $PWD:/app",
+	"restart": "--restart unless-stopped",
 	"args": "--user vagrant:vagrant",
 	"env": "COMPOSER_VERSION"
 }
