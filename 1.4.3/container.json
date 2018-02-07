@@ -7,7 +7,7 @@
 	"network": "--network wplibbox",
 	"ports": "",
 	"volumes": "--volume $PWD:/app",
-	"restart": "--restart unless-stopped",
+	"restart": "--restart no",
 	"args": "--user vagrant:vagrant",
 	"env": "COMPOSER_VERSION"
 }
