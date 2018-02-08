@@ -43,22 +43,27 @@ A simple `docker pull wplib/composer` will pull down the latest version.
 
 ### Runtime from Docker Hub
 start - Spin up a Docker container with the correct runtime configs.
+
 `docker run -d --name composer-1.6.3 --restart unless-stopped --network wplibbox  --user vagrant:vagrant --volume $PWD:/app wplib/composer:1.6.3`
 
 
 stop - Stop a Docker container.
+
 `docker stop composer-1.6.3`
 
 
 run - Run a Docker container in the foreground, (all STDOUT and STDERR will go to console). The Container be removed on termination.
+
 `docker run --rm --name composer-1.6.3 --network wplibbox  --user vagrant:vagrant --volume $PWD:/app wplib/composer:1.6.3`
 
 
 shell - Run a shell, (/bin/bash), within a Docker container.
+
 `docker run --rm --name composer-1.6.3 -i -t --network wplibbox  --user vagrant:vagrant --volume $PWD:/app wplib/composer:1.6.3 /bin/bash`
 
 
 rm - Remove the Docker container.
+
 `docker container rm composer-1.6.3`
 
 
@@ -99,5 +104,8 @@ When you `cd` into a version directory you can also perform a few more actions.
 
 
 `make rm` - Remove the Docker container.
+
+
+`make test` - Will issue a `stop`, `rm`, `clean`, `build`, `create` and `start` on a Docker container.
 
 
