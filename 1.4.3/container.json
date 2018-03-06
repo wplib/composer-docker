@@ -4,6 +4,7 @@
 	"version": "1.4.3",
 	"majorversion": "1.4",
 	"latest": "",
+	"class": "system",
 	"network": "--network wplibbox",
 	"ports": "",
 	"volumes": "--volume $PWD:/app",
