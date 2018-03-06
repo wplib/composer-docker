@@ -6,4 +6,5 @@ RUN apk update && \
 	groupadd -g 1000 vagrant && \
 	useradd -d /var/cache/nginx -c "WPLib vagrant user" -u 1000 -g 1000 -N -s /bin/bash vagrant
 
+COPY container.json /etc/container.json
 COPY files /
