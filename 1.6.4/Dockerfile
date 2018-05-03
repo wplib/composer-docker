@@ -1,4 +1,4 @@
-FROM composer:1.6.3
+FROM composer:1.6.4
 MAINTAINER WPLib Team <team@wplib.org>
 
 RUN apk update && \
