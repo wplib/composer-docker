@@ -16,7 +16,7 @@
 
 # Composer Docker Container for WPLib Box
 This is the repository for the [Composer](https://getcomposer.org/) Docker container implemented for [WPLib-Box](https://github.com/wplib/wplib-box).
-It currently provides versions 1.4.3 1.5.6 1.6.4
+It currently provides versions 1.4.x 1.5.x 1.6.x
 
 
 ## Supported tags and respective Dockerfiles
