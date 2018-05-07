@@ -1,3 +1,7 @@
+![Composer 1.6.x](https://img.shields.io/badge/Composer-1.6.x-green.svg)
+![Composer 1.5.x](https://img.shields.io/badge/Composer-1.5.x-green.svg)
+![Composer 1.4.x](https://img.shields.io/badge/Composer-1.4.x-green.svg)
+
 ```
  __          _______  _      _ _       ____
  \ \        / /  __ \| |    (_) |     |  _ \
@@ -17,11 +21,11 @@ It currently provides versions 1.4.3 1.5.6 1.6.4
 
 ## Supported tags and respective Dockerfiles
 
-`1.6.4`, `1.6.4`, `latest` _([1.6.4/Dockerfile](https://github.com/wplib/composer-docker/blob/master/1.6.4/Dockerfile))_
+`1.6.4`, `1.6`, `latest` _([1.6.4/Dockerfile](https://github.com/wplib/composer-docker/blob/master/1.6.4/Dockerfile))_
 
-`1.5.6`, `1.5.6` _([1.5.6/Dockerfile](https://github.com/wplib/composer-docker/blob/master/1.5.6/Dockerfile))_
+`1.5.6`, `1.5` _([1.5.6/Dockerfile](https://github.com/wplib/composer-docker/blob/master/1.5.6/Dockerfile))_
 
-`1.4.3`, `1.4.3` _([1.4.3/Dockerfile](https://github.com/wplib/composer-docker/blob/master/1.4.3/Dockerfile))_
+`1.4.3`, `1.4` _([1.4.3/Dockerfile](https://github.com/wplib/composer-docker/blob/master/1.4.3/Dockerfile))_
 
 
 ## Using this container.
