@@ -7,9 +7,9 @@
 	"class": "system",
 	"network": "--network wplibbox",
 	"ports": "",
-	"volumes": "--volume $PWD:/app",
+	"volumes": "--volume /projects/wplib.box:/app",
 	"restart": "--restart no",
-	"args": "--user vagrant:vagrant",
+	"args": "--user boxuser:boxuser",
 	"env": "COMPOSER_VERSION"
 }
 
